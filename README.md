@@ -38,3 +38,4 @@ clear; py -m unittest tests.test_is_pangram
 CodeWars and the top 2 solutions.
 
 ## License
+MIT License
