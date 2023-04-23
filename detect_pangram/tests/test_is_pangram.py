@@ -11,12 +11,12 @@ def test(func):
 class TestIsPangram(unittest.TestCase):
     
     @test
-    def test_pangram(self):        
+    def test_pangram(self):
         self.assertEqual(is_pangram("The quick, brown fox jumps over the lazy dog!"), True)
         self.assertEqual(is_pangram("pbcfemiyvhudxlkwzjroqtnags"), True)
 
     @test
-    def test_not_pangram(self):        
+    def test_not_pangram(self):
         self.assertEqual(is_pangram("1bcdefghijklmnopqrstuvwxyz"), False)
         self.assertEqual(is_pangram("01234567891011121314151617"), False)
 
