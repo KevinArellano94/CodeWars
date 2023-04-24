@@ -1,4 +1,4 @@
-from binary_addition import add_binary
+from add_binary import add_binary
 
 def main():
     print(add_binary(1,1))

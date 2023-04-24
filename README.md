@@ -1,6 +1,23 @@
 # Detect Pangram
 A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once. - CodeWars
 
+## Initial folder structure
+1. 
+```bash
+mkdir Exes_and_Ohs
+cd Exes_and_Ohs
+
+mkdir tests
+mkdir xo
+
+New-Item app.py
+New-Item ./xo/__init__.py
+New-Item ./xo/solution.py
+
+New-Item ./tests/__init__.py
+New-Item ./tests/test_xo.py
+```
+
 ## Installation
 1. Clone
 ```bash

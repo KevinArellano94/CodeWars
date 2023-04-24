@@ -1,6 +1,5 @@
 import unittest
-from binary_addition import add_binary
-from binary_addition import binary_addition
+from add_binary import add_binary
 
 
 def test(func):
@@ -13,7 +12,7 @@ class TestBinaryAddition(unittest.TestCase):
     
     @test
     def add_binary(self):
-        self.assertEqual(binary_addition(1,1),"10")
+        self.assert_equals(add_binary(1,1),"10")
         # self.assertEqual(add_binary(0,1),"1")
         # self.assertEqual(add_binary(1,0),"1")
         # self.assertEqual(add_binary(2,2),"100")
