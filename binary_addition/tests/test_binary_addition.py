@@ -11,12 +11,12 @@ def test(func):
 class TestBinaryAddition(unittest.TestCase):
     
     @test
-    def add_binary(self):
-        self.assert_equals(add_binary(1,1),"10")
-        # self.assertEqual(add_binary(0,1),"1")
-        # self.assertEqual(add_binary(1,0),"1")
-        # self.assertEqual(add_binary(2,2),"100")
-        # self.assertEqual(add_binary(51,12),"111111")
+    def test_add_binary(self):
+        self.assertEqual(add_binary(1,1),"10")
+        self.assertEqual(add_binary(0,1),"1")
+        self.assertEqual(add_binary(1,0),"1")
+        self.assertEqual(add_binary(2,2),"100")
+        self.assertEqual(add_binary(51,12),"111111")
 
 if __name__ == '__main__':
     unittest.main()

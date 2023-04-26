@@ -4,18 +4,22 @@ A pangram is a sentence that contains every single letter of the alphabet at lea
 ## Initial folder structure
 1. 
 ```bash
-mkdir Exes_and_Ohs
-cd Exes_and_Ohs
+$assessment_name = "string_to_camelcase"
+$function_name = "to_camel_case"
+
+mkdir $assessment_name
+cd $assessment_name
 
 mkdir tests
-mkdir xo
+mkdir $function_name
+New-Item README.md
 
 New-Item app.py
-New-Item ./xo/__init__.py
-New-Item ./xo/solution.py
+New-Item ./$function_name/__init__.py
+New-Item ./$function_name/solution.py
 
 New-Item ./tests/__init__.py
-New-Item ./tests/test_xo.py
+New-Item ./tests/test_$function_name.py
 ```
 
 ## Installation
